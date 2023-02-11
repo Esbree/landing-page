@@ -110,3 +110,28 @@
     text-align: center;
     padding-bottom: 24px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.quote-text {
+    font-size: 34px;
+    padding-inline: 140px;
+    padding-bottom: 24px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.signature {
+    margin-left: auto;
+    padding-right: 150px;
+    font-size: 22px;
+    font-weight: 700;
+}
