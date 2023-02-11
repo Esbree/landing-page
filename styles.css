@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -37,6 +37,7 @@
     display: flex;;
     color: white;
     background-color: #1F2937;
+    gap: 50px;
 }
 
 .lower-header-left {
@@ -81,4 +82,31 @@
     font-weight: bolder;
     padding-top: 45px;
     padding-bottom: 45px;
+}
+
+.show-place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#box {
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6 4px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text {
+    height: 75px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 24px;
 }
