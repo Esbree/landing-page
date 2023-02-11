@@ -64,7 +64,7 @@ body {
 
 .lower-header-right {
     background-color: grey;
-    width: 50%;
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
