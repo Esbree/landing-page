@@ -135,3 +135,45 @@
     font-size: 22px;
     font-weight: 700;
 }
+
+.action-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-call {
+    background-color: #3882F6;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 250px;
+    border-radius: 12px;
+}
+
+#call-heading {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#call-text {
+    color: rgb(220, 220, 220);
+}
+
+.button-2 {
+    background-color: rgb(53, 137, 255);
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
