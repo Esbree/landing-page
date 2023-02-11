@@ -4,16 +4,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 1500px;
 }
 
 .header {
@@ -64,7 +57,7 @@ body {
 
 .lower-header-right {
     background-color: grey;
-    width: 300px;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
