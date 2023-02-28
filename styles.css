@@ -4,6 +4,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.content {
+    max-width: 1400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -700px;
+    border-left: solid 1px rgb(172, 172, 172);
+    border-right: solid 1px rgb(172, 172, 172);
+}
+
 .container {
     display: flex;
     flex-direction: column;
